@@ -1,7 +1,15 @@
 import React from 'react';
+import { HomePageContainer, HeaderContainer } from './hompage.styled';
+import Overlay from './overlay.ui';
 
 const HomePage = () => {
-  return <div>Hello HomePage!</div>;
+  return (
+    <HomePageContainer>
+      <HeaderContainer>
+        <Overlay />
+      </HeaderContainer>
+    </HomePageContainer>
+  );
 };
 
 export default HomePage;
